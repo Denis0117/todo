@@ -51,7 +51,7 @@ function createTodo() {
     todoListforinput.appendChild(inputText);
     inputText.setAttribute('type', 'text');
     inputText.setAttribute('id', 'inputText');
-    inputText.setAttribute('placeholder',' Описание')
+    inputText.setAttribute('placeholder','Описание')
     
     todoListforinput.appendChild(add_delete);
 
