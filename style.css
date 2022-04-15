@@ -1,0 +1,135 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#title {
+  text-align: center;
+  font-size: 50px;
+}
+#inputText {
+  width: 95%;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 20px;
+  vertical-align: middle;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 15px;
+  color: purple;
+}
+header {
+  border-radius: 12px;
+}
+.listfortasks {
+  cursor: pointer;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-align: start;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.to-dos {
+  height: 90%;
+  width: 95%;
+  border: 1px solid rgb(172, 172, 172);
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoListforinput h1 {
+  margin: 10px;
+}
+.filtering {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+i.fa-arrow-up-wide-short {
+  cursor: pointer;
+  margin: 0px 20px;
+  padding: 0;
+}
+
+i.fa-arrow-down-wide-short {
+  cursor: pointer;
+}
+.deleteicon {
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  padding: 0;
+  cursor: pointer;
+}
+.deleteicon i.fa-solid {
+  padding: 0;
+}
+button.deleteicon {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.todoList {
+  background-color: white;
+  border: 1px solid rgb(168, 167, 167);
+  border-radius: 12px;
+  width: 480px;
+}
+.todoListforinput {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+#addbutton,
+#clearToDo {
+  font-size: 16px;
+  position: relative;
+  border: none;
+  background-color: #833ae0;
+  border-radius: 30px;
+  width: 130px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  cursor: pointer;
+}
+.roundforplus {
+  background-color: aqua;
+  width: 20px;
+  height: 20px;
+}
+.fa-solid {
+  padding-right: 15px;
+}
+.add_delete {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+#eachInput {
+  height: 20px;
+  font-size: 17px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  width: 350px;
+}
+
+.eachTask {
+  display: flex;
+}
